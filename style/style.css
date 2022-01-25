@@ -1,0 +1,32 @@
+*, html, body{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+    /* font-family: 'Nunito', sans-serif; */
+}
+.hero-bg{
+    height: 100vh;
+    background-image: url('../img/hero-bg-bookshelf.jpg');
+    object-fit: cover;
+    display: block;
+    vertical-align: middle;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+
+}
+
+.prev-btn,
+.next-btn {
+  color: black;
+  font-size: 1.25rem;
+  background: transparent;
+  border-color: transparent;
+  margin: 0 0.5rem;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+.prev-btn:hover,
+.next-btn:hover {
+  color: yellow;
+}
